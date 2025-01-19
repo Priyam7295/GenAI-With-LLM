@@ -30,8 +30,9 @@
 - **Evaluating Original Model (FLAN-T5), Fully Fine-Tuned Model, and PEFT Model Quantitatively using ROUGE Scores**
   - The evaluation was performed using **ROUGE** scores to measure the performance of the models on the dialogue summarization task.
   - The score that I have used for comparision is {**'rouge1'**: , **'rouge2'**: , **'rougeL'**: , **'rougeLsum'**:}
-  - <img src="https://github.com/user-attachments/assets/a4d287ac-c41a-4a3c-a575-02f465c6b5bc" width="500" height="300" />
+  - <img src="https://github.com/user-attachments/assets/891dec61-f98e-4864-98c9-7ea179a8b6ad" width="500" height="300" />
 
-  - The results show that, by applying **LoRA** (a PEFT technique), our model performed better than the original **FLAN-T5** model, although it still lagged behind the fully fine-tuned model in certain areas. However, the performance gap is considered acceptable, given that the computational cost and resource requirements of LoRA are significantly lower than that of fully fine-tuning the model.
+
+  - The results usually, by applying **LoRA** (a PEFT technique), our model performed better than the original **FLAN-T5** model, although it still lagged behind the fully fine-tuned model in certain areas. However, the performance gap is considered acceptable, given that the computational cost and resource requirements of LoRA are significantly lower than that of fully fine-tuning the model.
 
 
